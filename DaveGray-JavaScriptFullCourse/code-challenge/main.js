@@ -2,8 +2,8 @@
 
 // Write code that will return a random letter from your name
 
-const myName = 'Isaac';
-const anotherName = 'Johnathan';
+const myName = "Isaac";
+const anotherName = "Johnathan";
 
 console.log(typeof myName);
 

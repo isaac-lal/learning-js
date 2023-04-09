@@ -10,15 +10,15 @@ if(condition is true) {
 
 */
 
-let soup = 'chicken noodle soup';
+let soup = "chicken noodle soup";
 let reply;
 let crackers = true;
 let customerIsBanned = false;
 
-if(customerIsBanned) {
+if (customerIsBanned) {
   reply = "No soup or crackers for you!";
 } else if (soup && crackers) {
-  reply = "We have both soup and crackers! :)"
+  reply = "We have both soup and crackers! :)";
 } else if (soup) {
   reply = "Here's your order of ${soup}";
 } else {
@@ -32,50 +32,50 @@ let testScore = 59;
 let grade;
 let collegeStudent = true;
 
-if(testScore >= 90) {
-  grade = 'A';
+if (testScore >= 90) {
+  grade = "A";
   console.log(grade);
-} else if(testScore >= 80) {
-  grade = 'B';
+} else if (testScore >= 80) {
+  grade = "B";
   console.log(grade);
-} else if(testScore >= 70) {
-  grade = 'C';
+} else if (testScore >= 70) {
+  grade = "C";
   console.log(grade);
-} else if(testScore >= 60) {
-  grade = 'D';
+} else if (testScore >= 60) {
+  grade = "D";
   console.log(grade);
 } else {
-  grade = 'F';
+  grade = "F";
   console.log(grade);
-  if(collegeStudent) {
-    grade = 'U';
+  if (collegeStudent) {
+    grade = "U";
   } else {
-    grade = 'F';
+    grade = "F";
   }
 }
 
 // Decision tree!
-let player = 'scissors';
-let computer = 'rock';
+let player = "scissors";
+let computer = "rock";
 
-if(player === computer) {
-  console.log('Tie')
-} else if(player === 'rock') {
-  if(computer === 'paper') {
-    console.log('They won')
+if (player === computer) {
+  console.log("Tie");
+} else if (player === "rock") {
+  if (computer === "paper") {
+    console.log("They won");
   } else {
-    console.log('You won')
+    console.log("You won");
   }
-} else if(player === 'scissors') {
-  if(computer === 'rock') {
-    console.log('They won')
+} else if (player === "scissors") {
+  if (computer === "rock") {
+    console.log("They won");
   } else {
-    console.log('You won')
+    console.log("You won");
   }
-} else if(player === 'paper') {
-  if(computer === 'scissors') {
-    console.log('They won')
+} else if (player === "paper") {
+  if (computer === "scissors") {
+    console.log("They won");
   } else {
-    console.log('You won')
+    console.log("You won");
   }
 }
