@@ -1,3 +1,3 @@
-let name = "Isaac";
+const myName = "Isaac";
 
-console.log("Hello! My name is " + name);
+console.log("Hello, World! My name is " + myName);
