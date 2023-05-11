@@ -3,6 +3,8 @@
 2. Call this function 3 times, with input data for 3 different countries. Store the returned values in 3 different variables, and log them to the console
 */
 
+"use strict";
+
 function describeCountry(country, population, capitalCity) {
   const countryDescription = `${country} has ${population} million people and its capital city is ${capitalCity}`;
 
