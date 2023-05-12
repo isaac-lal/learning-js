@@ -40,3 +40,5 @@ const avgKoalasSecond = calcAverage(23, 34, 27);
 console.log(checkWinner(avgDolphinsSecond, avgKoalasSecond));
 
 console.log(checkWinner(111, 586));
+
+console.log("Wow this is craxy man");
